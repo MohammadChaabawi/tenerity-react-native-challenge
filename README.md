@@ -1,12 +1,6 @@
-<div
-  align="center" 
->
-	<img
-		width="300"
-		alt="The Lounge"
-		src="./assets/tenerity-logo.png"
-  >
-</div>
+
+# This is the final product from my attempt.
+
 
 # Tenerity Mobile Technical Challenges
 \* To start please fork this repository
