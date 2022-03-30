@@ -34,6 +34,11 @@ import ScreenHeading from '@/components/ScreenHeading';
 import useUpdateUser, { useGetUser } from '@/hooks/useApiUsers';
 import { setUser } from '@/redux/userSlice';
 import { setTags } from '@/redux/tagsSlice';
+
+/**
+ * The Home screen that show cases all the offers that can be selected.
+ * @returns The JSX home container element.
+ */
 const HomeScreen = () => {
   const dispatch = useDispatch();
   const myOffersCache = useSelector(state => state.offers.myOffers);

@@ -4,6 +4,11 @@ import useGetTags from '@/hooks/useApiTags';
 import * as React from 'react';
 import { StyleSheet, Text, SafeAreaView } from 'react-native';
 import { Chip } from 'react-native-paper';
+
+/**
+ * Renders the tags of the offer.
+ * @returns The tags JSX element.
+ */
 const Tags = ({ tagIds, allTags, opacity }) => {
   let offerTags = [];
   if (allTags && tagIds) {

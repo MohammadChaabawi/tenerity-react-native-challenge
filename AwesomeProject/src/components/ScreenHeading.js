@@ -2,6 +2,11 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import Colors from '@/constants/Colors';
 
+/**
+ * The screen's heading to be rendered.
+ * @param heading The title of the screen.
+ * @returns Title of the screen JSX element.
+ */
 const ScreenHeading = ({ heading }) => {
   return (
     <View>

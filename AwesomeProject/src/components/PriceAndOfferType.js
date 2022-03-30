@@ -2,6 +2,11 @@ import Colors from '@/constants/Colors';
 import * as React from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 import { Chip } from 'react-native-paper';
+
+/**
+ * Renders the price and the type of the offer.
+ * @returns Price and offer type component.
+ */
 const PriceAndOfferType = ({ price, offerType, opacity }) => {
   return (
     <SafeAreaView style={styles.container}>

@@ -24,7 +24,12 @@ import {
 } from '@/redux/offersSlice';
 import { doesMyOfferExist, getTotalMyOffersPrice } from '@/helpers/Offers';
 import ScreenHeading from '@/components/ScreenHeading';
-const HomeScreen = () => {
+
+/**
+ * The my offers screen that show cases all the offers that can be selected.
+ * @returns The JSX my offers container element.
+ */
+const MyOffersScreen = () => {
   const dispatch = useDispatch();
   const myOffers = useSelector(state => state.offers.myOffers);
   const allTagsCache = useSelector(state => state.tags.tags);
@@ -36,6 +41,10 @@ const HomeScreen = () => {
   } = useGetTags();
   const scrollX = React.useRef(new Animated.Value(0)).current;
 
+  /**
+   * @description Function that is used for adding or removing user selected offers.
+   * @param offer The offer to be added or removed.
+   */
   const handleAddOrRemoveOfferPress = useCallback(
     offer => {
       if (myOffers && offer?.id && doesMyOfferExist(offer.id, myOffers)) {
@@ -181,4 +190,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default MyOffersScreen;

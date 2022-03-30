@@ -2,6 +2,12 @@ import { Animated, Dimensions, StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 const { width } = Dimensions.get('screen');
 
+/**
+ * @description The background blurred image for the containers.
+ * @param Offers The offer records.
+ * @param scrollX The x position, which used for interpolation.
+ * @returns A blurred Image.
+ */
 const BlurredBGImage = ({ offers, scrollX }) => {
   return (
     <View style={[StyleSheet.absoluteFillObject]}>

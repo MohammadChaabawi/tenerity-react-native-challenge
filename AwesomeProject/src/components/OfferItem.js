@@ -10,6 +10,10 @@ const { width, height } = Dimensions.get('screen');
 const imageW = width * 0.84;
 const imageH = imageW * 0.65;
 
+/**
+ * @description The offer item for rendering the offer records.
+ * @returns The JSX element that showcases the offer items.
+ */
 export const OfferItem = ({
   image,
   title,
