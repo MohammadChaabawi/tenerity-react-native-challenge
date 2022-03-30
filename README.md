@@ -1,6 +1,6 @@
 
 # This is the final product from my attempt.
-https://github.com/MohammadChaabawi/tenerity-react-native-challenge/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2012%20-%202022-03-31%20at%2000.01.05.mp4
+https://raw.githubusercontent.com/MohammadChaabawi/tenerity-react-native-challenge/main/Simulator%20Screen%20Recording%20-%20iPhone%2012%20-%202022-03-31%20at%2000.01.05.mp4
 
 # Features implemented:
 1. Offline mode.
