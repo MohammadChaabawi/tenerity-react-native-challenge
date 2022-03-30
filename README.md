@@ -1,6 +1,20 @@
 
 # This is the final product from my attempt.
+https://github.com/MohammadChaabawi/tenerity-react-native-challenge/blob/main/Simulator%20Screen%20Recording%20-%20iPhone%2012%20-%202022-03-31%20at%2000.01.05.mp4?raw=true
 
+# Features implemented:
+1. Offline mode.
+2. Native animations using interpolation.
+3. React queries for managing api data.
+4. Mock service workers to mock API responses and to test the react queries for different HTTP codes.
+
+
+# Libraries and tools used:
+1. React query
+2. Redux-persist.
+3. Mock Service Workers.
+4. React Navigation.
+5. Jest
 
 # Tenerity Mobile Technical Challenges
 \* To start please fork this repository
